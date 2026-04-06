@@ -6,12 +6,16 @@ This project is a simple DevOps automation system that monitors CPU usage on an 
 It also includes 🧪 CPU load testing using the stress tool to validate the monitoring system.
 
 # 🛠️ TECH STACK
-
  AWS EC2 (Ubuntu)
+ 
  Bash Scripting
+ 
  Cron Jobs
+ 
  Sysstat (mpstat)
+ 
  Mailutils + postfix (SMTP email system)
+ 
  stress tool (CPU load generator)
 
 # PROJECT FLOW
