@@ -1,0 +1,1 @@
+* * * * * /bin/bash /home/ubuntu/CPU-monitoring-alert-sys/scripts/cpu_monitor.sh
