@@ -1,0 +1,4 @@
+/* Reset default App.css styles from Vite */
+#root {
+  width: 100%;
+}
