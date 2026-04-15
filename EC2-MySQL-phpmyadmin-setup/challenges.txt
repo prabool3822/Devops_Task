@@ -1,0 +1,35 @@
+CHALLENGES FACED
+
+1. phpMyAdmin not connecting to MySQL
+- Error: Connection refused
+- Fix: bind-address changed to 0.0.0.0
+
+2. Security Group confusion
+- Initially used IP-based rules
+- Learned to use Security Group reference
+
+3. dbconfig-common confusion
+- Didn't understand password prompts
+- Fixed by selecting "NO" for remote DB setup
+
+4. MySQL user access issue
+- 'myuser'@'localhost' not working remotely
+- Fixed by creating 'myuser'@'%'
+
+5. phpMyAdmin config confusion
+- Where to add host
+- Fixed by adding new server block at end
+
+6. Public vs Private IP confusion
+- Initially tried public IP
+- Learned private DNS is better
+
+
+---
+
+LEARNINGS
+
+- Real DevOps architecture
+- Networking basics
+- Debugging production issues
+- Importance of security
