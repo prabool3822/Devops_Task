@@ -10,7 +10,7 @@ The implementation integrates Duo at the **Windows logon level**, ensuring that 
 
 ## 🧩 Architecture Diagram
 
-![architecture](architecture/duo-2fa-architecture.png)
+![architecture](architecture/architecture.png)
 
 ---
 
