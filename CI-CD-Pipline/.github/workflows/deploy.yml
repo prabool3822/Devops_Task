@@ -1,0 +1,17 @@
+name: Simple CI CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Deploy using Docker
+        run: |
+          cd /home/ubuntu/Projects/portfolio-app
+          docker compose down
+          docker compose up -d --build
